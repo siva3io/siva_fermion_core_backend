@@ -1,0 +1,75 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "page": 1,
+    "page_size": 20,
+    "count": 100,
+    "more_records": true,
+    "result": [
+        {
+            "pick_list_id": 1,
+            "pick_list_name": "PL00001",
+            "pick_list_creation_date": "2022-03-14 12:16:47",
+            "reference_number": "REF-PL00001",
+            "source_document": {
+                "id": 1,
+                "name": "File",
+                "file_path": "https://picsum.photos/200/300"
+            },
+            "assignee_name": "Ramesh Kumar",
+            "warehouse_name": "RK Warehouse",
+            "item_list": [
+                {
+                    "product_id": 1,
+                    "product_name": "T-shirt"
+                },
+                {
+                    "product_id": 2,
+                    "product_name": "Jeans"
+                },
+                {
+                    "product_id": 3,
+                    "product_name": "Sneakers"
+                }
+            ],
+            "status": "Completed"
+        },
+        {
+            "pick_list_id": 2,
+            "pick_list_name": "PL00002",
+            "pick_list_creation_date": "2022-03-14 12:16:47",
+            "reference_number": "REF-PL00002",
+            "source_document": {
+                "id": 1,
+                "name": "File",
+                "file_path": "https://picsum.photos/200/300"
+            },
+            "assignee_name": "Ramesh Kumar",
+            "warehouse_name": "MK Warehouse",
+            "item_list": [
+                {
+                    "product_id": 1,
+                    "product_name": "T-shirt"
+                },
+                {
+                    "product_id": 2,
+                    "product_name": "Jeans"
+                },
+                {
+                    "product_id": 3,
+                    "product_name": "Sneakers"
+                }
+            ],
+            "status": "On hold"
+        }
+    ]
+}

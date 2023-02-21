@@ -1,0 +1,63 @@
+{"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+    "page": 1,
+    "page_size": 20,
+    "count": 100,
+    "more_records": "True",
+    "result":[{
+    
+        "id": 1,
+        "dn_date": "04/08/22",
+        "debit_note_id": "DN00001",
+        "reference_id": "REF-SI-00001",
+        "invoice_id": "SI-00001",
+        "vendor_name": "Namrata Singh",
+        "status": "draft",
+        "payment_amount": "2,00,000",
+        "balance_due": "1,00,000"
+    },
+    {
+        "id": 2,
+        "dn_date": "04/08/22",
+        "debit_note_id": "DN00002",
+        "reference_id": "REF-SI-00002",
+        "invoice_id": "SI-00002",
+        "vendor_name": "Surendra",
+        "status": "draft",
+        "payment_amount": "3,00,000",
+        "balance_due": "2,00,000"
+    },
+    {
+        "id": 3,
+        "dn_date": "04/08/22",
+        "debit_note_id": "DN00003",
+        "reference_id": "REF-SI-00003",
+        "invoice_id": "SI-00003",
+        "vendor_name": "Sai",
+        "status": "draft",
+        "payment_amount": "3,00,000",
+        "balance_due": "2,00,000"
+    },
+    {
+        "id": 4,
+        "dn_date": "04/08/22",
+        "debit_note_id": "DN00004",
+        "reference_id": "REF-SI-00004",
+        "invoice_id": "SI-00004",
+        "vendor_name": "Satya",
+        "status": "draft",
+        "payment_amount": "3,00,000",
+        "balance_due": "2,00,000"
+    }
+    ]
+}

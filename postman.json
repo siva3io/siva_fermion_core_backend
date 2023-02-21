@@ -1,0 +1,123 @@
+{
+	"//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+  "//": "All rights reserved.",
+  "//": "This program is free software: you can redistribute it and/or modify",
+  "//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+  "//": "the Free Software Foundation, either version 3 of the License, or",
+  "//": "(at your option) any later version.",
+  "//": "This program is distributed in the hope that it will be useful,",
+  "//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+  "//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+  "//": "GNU Lesser General Public License v3.0 for more details.",
+  "//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+  "//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.",
+  
+	"info": {
+		"_postman_id": "846808c3-f2b9-4f87-9551-ddf4f3307579",
+		"name": "euni_plt_go_gorm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"M Cholis Malik\",\r\n    \"username\": \"malikmcholis\",\r\n    \"password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/auth/register",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"malikmcholis\",\r\n    \"password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/auth/login",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Samples",
+			"item": [
+				{
+					"name": "Get",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTYyMTQyMjAsInVzZXJuYW1lIjoibWFsaWttY2hvbGlzIn0.QYMNoC3jWMhF7U0dDptl9cqAjBcgKKWdjyOSYsjLnFU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/samples?page_size=22&page=100",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"samples"
+							],
+							"query": [
+								{
+									"key": "page_size",
+									"value": "22"
+								},
+								{
+									"key": "page",
+									"value": "100"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
